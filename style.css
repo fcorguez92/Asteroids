@@ -1,0 +1,213 @@
+/* Estilos de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin-top: 90px;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #000;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+  }
+  
+  /* Estilos para el jumbotron */
+  .jumbotron {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-size: 72px;
+    margin-bottom: 50px;
+  }
+  
+  .jumbotron p {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  .jumbotron .btn-primary {
+    font-size: 24px;
+  }
+  
+  /* Estilos para la sección de información del juego */
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .col-md-4 {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px 20px;
+    transition: all 0.5s ease;
+  }
+  
+  .col-md-4:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+  }
+  
+  .col-md-4 h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .col-md-4 p {
+    font-size: 24px;
+  }
+  
+  /* Estilos para la sección de descarga */
+  #download {
+    background-color: #000;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #download h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  
+  #download hr {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  #download p {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  #download .btn-primary {
+    font-size: 36px;
+    border-radius: 0;
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    transition: all 0.5s ease;
+  }
+  
+  #download .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    }
+    
+    footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+    
+    footer a {
+    color: #fff;
+    }
+    
+    footer a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Estilos para la sección de FAQ */
+    #faq {
+    background-color: #fff;
+    padding: 100px 0;
+    }
+    
+    #faq h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    }
+    
+    #faq hr {
+    border-color: #000;
+    }
+    
+    #faq .accordion-item {
+    margin-bottom: 30px;
+    }
+    
+    #faq .accordion-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+    }
+    
+    #faq .accordion-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    #faq .accordion-button:focus {
+    box-shadow: none;
+    }
+    
+    #faq .accordion-button::after {
+    content: '\002B';
+    color: #fff;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+    }
+    
+    #faq .accordion-button.collapsed::after {
+    content: '\2212';
+    }
+    
+    #faq .accordion-collapse {
+    background-color: #f8f9fa;
+    border-radius: 0;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+    }
+    
+    #faq .accordion-collapse p {
+    margin-bottom: 0;
+    }
+  
