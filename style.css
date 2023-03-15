@@ -21,9 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Estilos para la barra de navegación */
-.navbar {
-  background-color: #000;
-}
 
 .navbar-brand {
   font-size: 30px;
@@ -35,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Estilos para el jumbotron */
 .jumbotron {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(120, 70, 207, 0.07);
   text-align: center;
   padding: 200px 0;
   margin-bottom: 0;
